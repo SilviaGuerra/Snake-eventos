@@ -27,7 +27,7 @@ function moverCuadrito(evento){
       break;
 
     case 37: //izq
-      posX = posX + movimiento;
+      posX = posX - movimiento;
       if(posX < 0){
         finDelJuego();
       } else{
